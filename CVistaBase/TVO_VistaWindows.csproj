@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{89443097-0F5C-4F07-A982-46B77DAA994D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TVO_VistaWindows</RootNamespace>
+    <AssemblyName>TEVEO</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ManifestCertificateThumbprint>7E154D2467D7570A5224D28DEFCBB3D3D0439A5F</ManifestCertificateThumbprint>
+    <ManifestKeyFile>TVO_VistaWindows_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <ApplicationIcon>icono.ico</ApplicationIcon>
+    <StartupObject>TVO_VistaWindows.Program</StartupObject>
+    <PublishUrl>c:\PROYECTO\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>TEVEO</ProductName>
+    <PublisherName>GRUPO DPAA 2010</PublisherName>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>true</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\TEVEO.XML</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FVistaAcercaDe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FVistaAcercaDe.Designer.cs">
+      <DependentUpon>FVistaAcercaDe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FVistaPortadaBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FVistaPortadaBase.Designer.cs">
+      <DependentUpon>FVistaPortadaBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FVistaPortadaModerador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FVistaPortadaModerador.Designer.cs">
+      <DependentUpon>FVistaPortadaModerador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FVistaSeccionComentariosModerador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FVistaSeccionComentariosModerador.Designer.cs">
+      <DependentUpon>FVistaSeccionComentariosModerador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FVistaPortadaTecnico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FVistaPortadaTecnico.Designer.cs">
+      <DependentUpon>FVistaPortadaTecnico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FVistaSeccionBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FVistaSeccionBase.Designer.cs">
+      <DependentUpon>FVistaSeccionBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FVistaAcceso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FVistaAcceso.Designer.cs">
+      <DependentUpon>FVistaAcceso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FVistaBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FVistaBase.Designer.cs">
+      <DependentUpon>FVistaBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FVistaSeccionCadenas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FVistaSeccionCadenas.Designer.cs">
+      <DependentUpon>FVistaSeccionCadenas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FVistaSeccionClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FVistaSeccionClientes.Designer.cs">
+      <DependentUpon>FVistaSeccionClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FVistaSeccionIncidencias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FVistaSeccionIncidencias.Designer.cs">
+      <DependentUpon>FVistaSeccionIncidencias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FVistaSeccionAdministradores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FVistaSeccionAdministradores.Designer.cs">
+      <DependentUpon>FVistaSeccionAdministradores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FVistaSeccionEmisiones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FVistaSeccionEmisiones.Designer.cs">
+      <DependentUpon>FVistaSeccionEmisiones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FVistaSeccionProgramas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FVistaSeccionProgramas.Designer.cs">
+      <DependentUpon>FVistaSeccionProgramas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FVistaSeccionCriticasModerador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FVistaSeccionCriticasModerador.Designer.cs">
+      <DependentUpon>FVistaSeccionCriticasModerador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FVistaSeccionXML.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FVistaSeccionXML.Designer.cs">
+      <DependentUpon>FVistaSeccionXML.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FVistaTEVEO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FVistaTEVEO.Designer.cs">
+      <DependentUpon>FVistaTEVEO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FVistaAcceso.resx">
+      <DependentUpon>FVistaAcceso.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FVistaAcercaDe.resx">
+      <DependentUpon>FVistaAcercaDe.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FVistaBase.es-ES.resx">
+      <DependentUpon>FVistaBase.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FVistaBase.resx">
+      <DependentUpon>FVistaBase.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FVistaPortadaBase.resx">
+      <DependentUpon>FVistaPortadaBase.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FVistaPortadaModerador.resx">
+      <DependentUpon>FVistaPortadaModerador.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FVistaSeccionBase.resx">
+      <DependentUpon>FVistaSeccionBase.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FVistaSeccionCadenas.resx">
+      <DependentUpon>FVistaSeccionCadenas.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FVistaSeccionClientes.resx">
+      <DependentUpon>FVistaSeccionClientes.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FVistaSeccionComentariosModerador.resx">
+      <DependentUpon>FVistaSeccionComentariosModerador.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FVistaSeccionIncidencias.resx">
+      <DependentUpon>FVistaSeccionIncidencias.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FVistaSeccionAdministradores.resx">
+      <DependentUpon>FVistaSeccionAdministradores.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FVistaPortadaTecnico.resx">
+      <DependentUpon>FVistaPortadaTecnico.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FVistaSeccionEmisiones.resx">
+      <DependentUpon>FVistaSeccionEmisiones.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FVistaSeccionProgramas.resx">
+      <DependentUpon>FVistaSeccionProgramas.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FVistaSeccionCriticasModerador.resx">
+      <DependentUpon>FVistaSeccionCriticasModerador.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FVistaSeccionXML.resx">
+      <DependentUpon>FVistaSeccionXML.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FVistaTEVEO.resx">
+      <DependentUpon>FVistaTEVEO.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Sql.Server.Express.9.2">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2005 Express Edition SP2 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sinfoto.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\incidencia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tvNovedad.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\messenger.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tv.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\incidencia2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\canales.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\novedades2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\administradores.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tv_logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tv_logo_buena.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\progPicture.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Resources\Key.png" />
+    <None Include="TVO_VistaWindows_TemporaryKey.pfx" />
+    <None Include="xmltv\README" />
+    <None Include="xmltv\README.tv_check" />
+    <None Include="xmltv\xmltv.dtd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TVO_EntidadesDeNegocio\TVO_EntidadesDeNegocio.csproj">
+      <Project>{ABC5C137-B5B2-437C-B998-84758DDBE4D9}</Project>
+      <Name>TVO_EntidadesDeNegocio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TVO_EventosWindows\TVO_EventosWindows.csproj">
+      <Project>{0D6BB540-0479-4106-96F0-E8803005C15D}</Project>
+      <Name>TVO_EventosWindows</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TVO_Utiles\TVO_Utiles.csproj">
+      <Project>{5E7F4A4A-330B-4F70-8CD0-DB8AD1716F9A}</Project>
+      <Name>TVO_Utiles</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icono.ico" />
+    <Content Include="xmltv\ChangeLog.txt" />
+    <Content Include="xmltv\README.txt" />
+    <Content Include="xmltv\xmltv.exe" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

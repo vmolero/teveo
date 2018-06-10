@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TVO_VistaWindows", "CVistaBase\TVO_VistaWindows.csproj", "{89443097-0F5C-4F07-A982-46B77DAA994D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TVO_EventosWindows", "TVO_EventosWindows\TVO_EventosWindows.csproj", "{0D6BB540-0479-4106-96F0-E8803005C15D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TVO_ComponentesAccesoDatos", "TVO_ComponentesAccesoDatos\TVO_ComponentesAccesoDatos.csproj", "{D8412C1F-E867-4BD5-A115-0FF658BA9A3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TVO_EntidadesDeNegocio", "TVO_EntidadesDeNegocio\TVO_EntidadesDeNegocio.csproj", "{ABC5C137-B5B2-437C-B998-84758DDBE4D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TVO_Utiles", "TVO_Utiles\TVO_Utiles.csproj", "{5E7F4A4A-330B-4F70-8CD0-DB8AD1716F9A}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "TVO_instalador", "TVO_instalador\TVO_instalador.vdproj", "{ED319FD2-BD86-4D50-9B34-25ADDEAA72F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89443097-0F5C-4F07-A982-46B77DAA994D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89443097-0F5C-4F07-A982-46B77DAA994D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89443097-0F5C-4F07-A982-46B77DAA994D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89443097-0F5C-4F07-A982-46B77DAA994D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D6BB540-0479-4106-96F0-E8803005C15D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D6BB540-0479-4106-96F0-E8803005C15D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D6BB540-0479-4106-96F0-E8803005C15D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D6BB540-0479-4106-96F0-E8803005C15D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8412C1F-E867-4BD5-A115-0FF658BA9A3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8412C1F-E867-4BD5-A115-0FF658BA9A3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8412C1F-E867-4BD5-A115-0FF658BA9A3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8412C1F-E867-4BD5-A115-0FF658BA9A3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABC5C137-B5B2-437C-B998-84758DDBE4D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABC5C137-B5B2-437C-B998-84758DDBE4D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABC5C137-B5B2-437C-B998-84758DDBE4D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABC5C137-B5B2-437C-B998-84758DDBE4D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E7F4A4A-330B-4F70-8CD0-DB8AD1716F9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E7F4A4A-330B-4F70-8CD0-DB8AD1716F9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E7F4A4A-330B-4F70-8CD0-DB8AD1716F9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E7F4A4A-330B-4F70-8CD0-DB8AD1716F9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED319FD2-BD86-4D50-9B34-25ADDEAA72F5}.Debug|Any CPU.ActiveCfg = Debug
+		{ED319FD2-BD86-4D50-9B34-25ADDEAA72F5}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

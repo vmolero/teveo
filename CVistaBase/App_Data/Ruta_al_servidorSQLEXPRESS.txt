@@ -1,0 +1,9 @@
+ANTES DE EMPEZAR A TRABAJAR
+
+Si has actualizado el tronco de trabajo y los ficheros mdf  yldf han cambiado, debes hacer lo siguiente:
+
+Hay que copiar y pegar en esta carpeta los ficheros .mdf y .ldf
+
+
+
+C:\Program Files\Microsoft SQL Server\MSSQL.1\MSSQL\Data
